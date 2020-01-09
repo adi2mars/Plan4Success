@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.appv1.plannerv14">
+
+    <application
+        android:allowBackup="true"
+
+        android:icon="@mipmap/ic_new_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_new_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <meta-data
+            android:name="com.google.android.gms.ads.APPLICATION_ID"
+            android:value="ca-app-pub-1820283267507599~7483643708"/>
+
+        <activity android:name="com.appv1.Plan4Success.RecurringNotif2"></activity>
+        <activity android:name="com.appv1.Plan4Success.RecurringNotif1" />
+        <activity
+            android:name="com.appv1.Plan4Success.About"
+            android:configChanges="orientation"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.appv1.Plan4Success.notifications2"
+            android:configChanges="orientation"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.appv1.Plan4Success.SecondActivity3"
+            android:configChanges="orientation"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.appv1.Plan4Success.SecondActivity2"
+            android:configChanges="orientation"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.appv1.Plan4Success.notifications"
+            android:configChanges="orientation"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.appv1.Plan4Success.SecondActivity"
+            android:configChanges="orientation"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.appv1.Plan4Success.MainActivity"
+            android:configChanges="orientation"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <receiver android:name="com.appv1.Plan4Success.AlarmReceiver">
+            <intent-filter>
+                <action android:name="adi.action.DISPLAY_NOTIFICATION" />
+            </intent-filter>
+        </receiver>
+
+        <service android:name="com.appv1.Plan4Success.ExampleService" />
+
+        <receiver android:name="com.appv1.Plan4Success.AlarmReceiver2">
+            <intent-filter>
+                <action android:name="android.intent.action.BOOT_COMPLETED" />
+            </intent-filter>
+        </receiver>
+        <receiver android:name="com.appv1.Plan4Success.AlarmReceiver3">
+            <intent-filter>
+                <action android:name="adi.action.DISPLAY_NOTIFICATION3" />
+            </intent-filter>
+        </receiver>
+    </application>
+
+</manifest>

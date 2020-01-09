@@ -1,0 +1,87 @@
+<resources>
+    <string name="app_name">Plan4Success</string>
+    <string name="action_settings">About</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="tab_label1">To-Do List</string>
+    <string name="tab_label2">Assignments</string>
+    <string name="tab_label3">Goals</string>
+    <string name="about">Created By Aditya Kumar</string>
+    <string name="Date">September 9th, 2019</string>
+    <string name="SetRecurr">Set Recurring Notifications Every X Minutes</string>
+    <string name="CancelRemind">Cancel Remind</string>
+    <string name="SetRemind">Set Reminder For One Time Notification:</string>
+    <string name="SetTime">Set Time</string>
+    <string name="SetRecurr2">Set Recurring Notifications</string>
+    <string name="SetRemind2">Set Reminder:</string>
+    <string name="set_date">Set Date</string>
+    <string name="SetTime2">Set Time</string>
+    <string name="cancel_reminder">Cancel Reminder</string>
+    <string name="task">Task</string>
+    <string name="press_to_edit_task">Press to Edit Task</string>
+    <string name="priority">Priority</string>
+    <string name="estimated_time">Estimated Time</string>
+    <string name="press_to_edit_priority">Press to Edit Priority</string>
+    <string name="press_to_edit_time">Press to Edit Time</string>
+    <string name="save">Save</string>
+    <string name="cancel">Cancel</string>
+    <string name="assignment">Assignment:</string>
+    <string name="press_to_edit_assignment">Press to Edit Assignment</string>
+    <string name="due_date">Due Date:</string>
+    <string name="select_to_edit_date">Select To Edit Date</string>
+    <string name="cancel2">Cancel</string>
+    <string name="add_recurring_notifications_for_every_x_days">Add Recurring Notifications For Every X Days</string>
+    <string name="set_date2">Set Date</string>
+    <string name="set_one_time_reminder">Set One Time Reminder:</string>
+    <string name="set_time">Set Time</string>
+    <string name="cancel_reminder2">Cancel Reminder</string>
+    <string name="taskName">Task</string>
+    <string name="edit_task">Press to Edit Task</string>
+    <string name="priority2">Priority</string>
+    <string name="estimated_time2">Estimated Time</string>
+    <string name="press_to_edit_priority2">Press to Edit Priority</string>
+    <string name="press_to_edit_time2">Press to Edit Time</string>
+    <string name="save3">Save</string>
+    <string name="cancel3">Cancel</string>
+    <string name="add_subgoal">Add SubGoal</string>
+    <string name="add_notification">Add Notification</string>
+    <string name="taskTitle">Task</string>
+    <string name="timeTitle">Time</string>
+    <string name="add_notificationTitle">Add Notification</string>
+    <string name="assignmentTitle">Assignment</string>
+    <string name="due_dateTitle">Due Date</string>
+    <string name="goal">Goal</string>
+    <string name="est_time">Est. Time</string>
+    <string name="enter_in_task">Enter in Task</string>
+    <string name="_0">0</string>
+    <string name="enter_in_assignment">Enter in Assignment</string>
+    <string name="enter_in_goal">Enter in Goal</string>
+    <string name="__0">0</string>
+    <string name="___0">0</string>
+    <string name="enter_in_subgoals">Enter in SubGoals</string>
+    <string name="enter_in_subgoal">Enter in SubGoal</string>
+    <string-array name="labels_array">
+        <item>None</item>
+        <item>30</item>
+        <item>60</item>
+        <item>90</item>
+        <item>120</item>
+    </string-array>
+    <string-array name="labels_array2">
+        <item>None</item>
+        <item>Every 12 Hours</item>
+        <item>Every Day</item>
+        <item>Every 2 Days</item>
+        <item>Every Week</item>
+        <item>Every 2 Weeks</item>
+    </string-array>
+    <string-array name="labels_array3">
+        <item>None</item>
+        <item>Every 12 Hours</item>
+        <item>Every Day</item>
+        <item>Every 2 Days</item>
+        <item>Every Week</item>
+        <item>Every 2 Weeks</item>
+    </string-array>
+</resources>
